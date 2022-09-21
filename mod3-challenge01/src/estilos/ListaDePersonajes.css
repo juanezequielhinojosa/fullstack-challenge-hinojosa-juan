@@ -1,0 +1,23 @@
+.contenedor-principal-personajes {
+  width: 100%;
+  min-height: 1000px;
+  margin-bottom: 10px;
+}
+.contenedor-personajes {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+}
+.contenedor-imagen {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+img {
+  height: 300px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
